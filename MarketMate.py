@@ -17,7 +17,9 @@ celery = None
 def create_app():
     app = Flask(__name__, template_folder = 'templates')
     if(os.getenv('ENV', 'development') == 'production'):
-        raise Exception("Currently no production config is setup.")
+        # raise Exception("Currently no production config is setup.")
+        print("Starting Production Configuration")
+        app.config.from_object(Config)
     elif(os.getenv('ENV', 'development') == 'stage'):
         print("Starting Stage")
         app.config.from_object(StageConfig)
