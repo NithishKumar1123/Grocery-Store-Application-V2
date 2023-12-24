@@ -1,0 +1,33 @@
+Product ID,Product Name,Product Name in Tamil,Product Name in Hindi,Price,Unit,Stock Remaining,Stock Sold,Category Name,Total Revenue
+1,Cadbury Dairy Milk,கேட்பரி பால் பால்,कैडबरी डेयरी मिल्क,20,Nos,27,28,"Bakery, Cakes and Dairy",560
+2,Frooti,ஃப்ரூட்டி,फ्रूटी,20,Nos,10,15,Drinks and Beverages,300
+10,Red Velvet Cake,சிவப்பு வெல்வெட் கேக்,लाल मखमली केक,499,Kgs,5,3,"Bakery, Cakes and Dairy",1497
+11,Coca Cola,கோகோ கோலா,कोका कोला,25,Nos,0,25,Soft Drinks,625
+14,Fresho Frozen Green Peas,ஃப்ரெஷோ ஃப்ரோசன் கிரீன் பீஸ்,ताजा जमे हुए हरी मटर,99,Kgs,10,0,Fruits and Vegetables,0
+15,Amul Pasteurised Butter,அமுல் பேஸ்டுரைஸ் செய்யப்பட்ட வெண்ணெய்,अमूल पाश्चुरीकृत मक्खन,145,Kgs,9,0,"Bakery, Cakes and Dairy",0
+16,Homogenised Toned Milk,ஒரே மாதிரியான டோன் செய்யப்பட்ட பால்,समरूप टोंड दूध,144,Ltrs,3,15,"Bakery, Cakes and Dairy",2160
+17,Milky Mist Paneer,மில்கி மிஸ்ட் பனீர்,मिल्की मिस्ट पनीर,475,Nos,25,0,"Bakery, Cakes and Dairy",0
+18,Farm Fresh Curd,பண்ணை புதிய தயிர்,खेत ताजा दही,196,Nos,35,0,"Bakery, Cakes and Dairy",0
+19,Lactose Free Milk,லாக்டோஸ் இல்லாத பால்,लैक्टोज मुक्त दूध,75,Ltrs,50,0,"Bakery, Cakes and Dairy",0
+20,Britannia Croissant,பிரிட்டானியா குரோசண்ட்,ब्रिटानिया क्रोइसैन्ट,60.8,Nos,25,0,"Bakery, Cakes and Dairy",0
+21,Chocolate Health Drink,சாக்லேட் ஆரோக்கிய பானம்,चॉकलेट स्वास्थ्य पेय,445,Ltrs,0,1,Drinks and Beverages,445
+22,Mineral Water,மினரல் வாட்டர்,मिनरल वॉटर,135,Ltrs,50,0,Drinks and Beverages,0
+23,Green Tea,பச்சை தேயிலை தேநீர்,हरी चाय,540,Kgs,50,0,Drinks and Beverages,0
+24,Bru Instant Coffee,ப்ரூ உடனடி காபி,ब्रू इंस्टेंट कॉफ़ी,341,Nos,60,0,Drinks and Beverages,0
+25,Sparkling Water,மின்னும் நீர்,सोडा,60,Nos,25,0,Drinks and Beverages,0
+26,Tender Coconut Water,தேங்காய் தண்ணீர்,कोमल नारियल पानी,85,Ltrs,50,0,Drinks and Beverages,0
+27,Diet Coke,டயட் கோக்,डाइट कोक,40,Nos,60,0,Drinks and Beverages,0
+28,Nagpur Orange,நாக்பூர் ஆரஞ்சு,नागपुर ऑरेंज,87,Kgs,60,0,Fruits and Vegetables,0
+29,Onion (loose),வெங்காயம்,प्याज,75,Kgs,0,0,Fruits and Vegetables,0
+30,Shimla Apple,சிம்லா ஆப்பிள்,शिमला सेब,151,Kgs,55,0,Fruits and Vegetables,0
+31,Pure Cow Ghee,சுத்தமான பசு நெய்,शुद्ध गाय का घी,717,Ltrs,25,0,"Foodgrains, Oil and Masala",0
+32,Groundnut Oil,நிலக்கடலை எண்ணெய்,मूँगफली का तेल,454,Ltrs,29,0,"Foodgrains, Oil and Masala",0
+33,Atta Wheat,அட்டா கோதுமை,आटा गेहूं,485,Kgs,45,0,"Foodgrains, Oil and Masala",0
+34,Maybelline Eye Shadow,மேபெல்லைன் ஐ ஷேடோ,मेबेलिन आई शैडो,459,Nos,13,0,Beauty and Hygiene,0
+35,Sandal Soap,செருப்பு சோப்பு,चंदन साबुन,243,Nos,68,0,Beauty and Hygiene,0
+36,Chocolate Muesli,சாக்லேட் மியூஸ்லி,चॉकलेट मूसली,310,Kgs,35,0,Snacks and Branded Foods,0
+37,Dishwash Bar - Lemon,பாத்திரம் கழுவும் பட்டை - எலுமிச்சை,डिशवॉश बार - नींबू,302,Nos,23,0,Cleaning and Household,0
+38,Pedigree,பரம்பரை,वंशावली,252,Kgs,68,0,"Kitchen, Garden and Pets",0
+39,Eggs,முட்டைகள்,अंडे,275,Nos,65,0,"Eggs, Meat and Fish",0
+40,Vanilla Crisps,வெண்ணிலா கிரிஸ்ப்ஸ்,वेनिला क्रिस्प्स,53,Nos,15,0,Home Made Chocolates,0
+42,Baby Shampoo,குழந்தை ஷாம்பு,बेबी शैम्पू,310,Nos,15,0,Baby Care,0
