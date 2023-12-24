@@ -1,0 +1,14 @@
+flask
+flask-sqlalchemy
+flask_restful
+flask_security-too
+flask-excel
+flask-caching
+email_validator
+redis
+celery[redis]
+httplib2
+flask-sse
+gunicorn
+gevent
+matplotlib
