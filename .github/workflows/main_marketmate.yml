@@ -66,4 +66,4 @@ jobs:
         with:
           app-name: 'MarketMate'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_25F3221AF0B045BF9F6FDC8924191DC8 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_5641E56E8E5A428A9476897174C915C3 }}
