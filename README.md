@@ -137,6 +137,10 @@ The following are the terminal commands to run the MarketMate Grocery Store Appl
 ### MAIL
 	~/go/bin/MailHog
 
+## Admin Credentials
+	admin@marketmate.com
+ 	Nithish@1123
+
 ## YAML
 	https://app.swaggerhub.com/apis-docs/21f1006725/MarketMate/1.0.0
 
