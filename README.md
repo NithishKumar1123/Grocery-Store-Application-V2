@@ -122,6 +122,8 @@ The following are the terminal commands to run the MarketMate Grocery Store Appl
 
 ### MARKETMATE
 	cd Documents/'Capstone Project'/Code/
+	sh local_setup.sh
+	cd Documents/'Capstone Project'/Code/
 	sh local_run.sh
 
 ### WORKERS
