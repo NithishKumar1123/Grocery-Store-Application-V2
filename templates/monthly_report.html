@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <link href = "https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel = "stylesheet" integrity = "sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin = "anonymous">
+</head>
+<body>
+    <div class = "p-4 bg-light">
+        <p class = "h1">My Profile</p><br>
+        <div class = "d-flex">
+        <div class = "p-4 bg-dark bg-gradient rounded text-light">
+        <p class = "h1 text-capitalize text-left">{{ user.username }} 🤩</p>
+        <p><b>Email:</b> {{ user.email }}</p>
+        </div>
+        </div>
+        <br>
+        {% if user.cart %}
+        <p class = "h1">My Orders</p>
+        {% endif %}
+        <div class = "row">
+            {% if user.cart %}
+            {% for car in user.cart %}
+            <div class = "p-3 col-3">
+                <div class = "p-3 bg-dark bg-gradient rounded text-light text-center" style = "width: 250px">
+                    <p class = "h4">{{ car.product_.productname }}</p><br>
+                    <p class = "h6">{{ car.product_.category_.categoryname }}</p><br>
+                    <p><b>Price: </b>₹ {{ car.product_.price }} / {{ car.product_.unit }}</p>
+                    {% if car.product_.quantity != 0 %}
+                        <p>Only {{ car.product_.quantity }} {{ car.product_.unit }} left</p>
+                    {% else %}
+                        <p class = "text-danger"><b>Out of Stock 😓</b></p>
+                    {% endif %}
+                    <p><b>Quantity:</b> {{ car.quantity }} {{ car.product_.unit }}</p>
+                    <p><b>Total: ₹ {{ car.product_.price * car.quantity }} /-</b></p>
+                    <p class = "text-info fw-bold">Your Order is being Processed 🥳</p>
+                </div>
+            </div>
+            {% endfor %}
+            {% else %}
+            <div class = "p-3">
+                <p>🌟🛒 Unwrap the Joy of Freshness! 🛒🌟<br><br>Dear {{ user.username }},<br>Guess what's in store for you? A cartful of freshness, a bundle of savings, and a sprinkle of convenience! 🍎🛍️<br><br>Our <b>MarketMate</b> Online Grocery Store is bursting with farm-fresh produce, pantry essentials, and all your favorite goodies. Why step out when you can shop from the comfort of your couch?<br><br>🚀 Here's why you'll love shopping with us:<br>1️⃣ Fresh Picks: Handpicked, farm-fresh goodness delivered to your doorstep.<br>2️⃣ Amazing Deals: Jaw-dropping discounts and exclusive offers that'll make your wallet smile.<br>3️⃣ Effortless Shopping: Navigate our user-friendly website with ease – it's like a shopping spree without the queues!<br><br>Ready to dive into a world of convenience? Visit us to start your grocery adventure now! 🛒✨<br><br>Happy shopping! 😍</p>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
